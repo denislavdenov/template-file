@@ -6,6 +6,8 @@ variable "instance_type" {}
 
 variable "subnet_id" {}
 
+variable "region" {}
+
 variable "security_group_id" {
   type = "list"
 }
